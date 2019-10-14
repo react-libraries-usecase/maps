@@ -6,7 +6,7 @@ import NotePromise from './../notes/Basic';
 
 // wait for notes promise then show story
 NotePromise.then(notes =>
-  storiesOf('CssTransition', module).add(
+  storiesOf('Pigeon', module).add(
     'Basic',
     () => {
       const Basic = lazy(() => import('./../src/Basic/index'));
